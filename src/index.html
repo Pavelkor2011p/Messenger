@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css"/>
+    <title>Comments</title>
+</head>
+<body>
+    <div class="conteiner">
+        <h1>Comments</h1>
+        <form action="" id="comment__add">
+            <div class="nameblock">
+                <p>Name</p>
+                <input type="text" class="nameblock__name" id="comment-name" placeholder="* Enter your name" required>
+            </div>
+            <div class="nameblock">
+                <p>Time</p>
+                <input type="number" class="nameblock__time" id="comment-time" placeholder="Year Month Day">
+            </div>
+            <div class="nameblock">
+                <p>Comment</p>
+                <textarea class="nameblock__enter" id="comment-body" placeholder="* Enter your comment" required></textarea>
+            </div>
+            <div class="nameblock">
+                <button type="submit" class="nameblock__button btn-submit" id="comment-add">Add comment</button>
+            </div>
+        </form>
+        <div class="commentsave">
+            <div id="commentsave__field"></div>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>

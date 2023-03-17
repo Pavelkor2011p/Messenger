@@ -1,0 +1,81 @@
+body {
+  background-color: #0ee2d1;
+}
+body p {
+  font-size: 18px;
+}
+
+.conteiner {
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.conteiner .nameblock {
+  margin-top: 30px;
+}
+.conteiner .nameblock__name {
+  height: 30px;
+  width: 300px;
+}
+.conteiner .nameblock__time {
+  height: 30px;
+  width: 300px;
+}
+.conteiner .nameblock__enter {
+  height: 140px;
+  width: 100%;
+}
+.conteiner .nameblock__button {
+  text-transform: uppercase;
+  padding: 15px 45px;
+  background-color: #ccc6c6;
+  cursor: pointer;
+}
+.conteiner .nameblock__button :hover button:hover {
+  border: 1px solid #FFFFFF;
+  transform: scale(1.05);
+}
+
+.commentsave {
+  width: 100%;
+  padding-top: 50px;
+}
+.commentsave-block {
+  background-color: #fff;
+  border: 1px solid black;
+  margin: 20px 0;
+}
+.commentsave-block .time {
+  margin-left: 1020px;
+  font-size: 14px;
+}
+.commentsave-block .alert {
+  margin-left: 20px;
+}
+.commentsave__likes {
+  display: flex;
+  align-items: center;
+}
+.commentsave__likes-count {
+  background-image: url(../img/favorite_black_24dp.svg);
+  height: 25px;
+  width: 27px;
+  border-color: #fff;
+  margin-left: 70px;
+  cursor: pointer;
+}
+.commentsave__likes-reset {
+  background-image: url(../img/delete_black_24dp.svg);
+  height: 25px;
+  width: 27px;
+  border-color: #fff;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+#clicks {
+  font-size: 14px;
+  color: #000;
+}
+
+/*# sourceMappingURL=style.css.map */
